@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -28,7 +27,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="lHI-N0-ea8">
-                                <rect key="frame" x="20" y="0.0" width="627" height="375"/>
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFl-6n-Nsd">
                                 <rect key="frame" x="253.5" y="148.5" width="160.5" height="78"/>
@@ -56,11 +55,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pFl-6n-Nsd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0TU-OB-2lQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lHI-N0-ea8" secondAttribute="trailing" id="4hq-eB-2Tg"/>
                             <constraint firstItem="lHI-N0-ea8" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="B5D-Xw-egn"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lHI-N0-ea8" secondAttribute="bottom" id="BeN-1c-grV"/>
+                            <constraint firstAttribute="trailing" secondItem="lHI-N0-ea8" secondAttribute="trailing" id="LxD-r3-2sg"/>
                             <constraint firstItem="pFl-6n-Nsd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UOR-kw-3Vo"/>
-                            <constraint firstItem="lHI-N0-ea8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="enS-ca-69A"/>
+                            <constraint firstItem="lHI-N0-ea8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nJF-SK-XGv"/>
                         </constraints>
                     </view>
                 </viewController>
