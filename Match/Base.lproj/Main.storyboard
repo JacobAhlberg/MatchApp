@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,10 +26,10 @@
                                 <rect key="frame" x="0.0" y="20" width="667" height="980"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Hd-vD-Uj9">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="1000"/>
+                                <rect key="frame" x="16" y="100" width="634" height="862"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="7VN-wx-anZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="632" height="842"/>
+                                        <rect key="frame" x="0.0" y="8" width="632" height="842"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="33V-1N-UVk">
                                                 <rect key="frame" x="0.0" y="0.0" width="632" height="200"/>
@@ -114,21 +115,21 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="7VN-wx-anZ" secondAttribute="trailing" id="Z2t-m3-dTn"/>
-                                    <constraint firstItem="7VN-wx-anZ" firstAttribute="leading" secondItem="0Hd-vD-Uj9" secondAttribute="leading" id="ZB4-V5-IdQ"/>
-                                    <constraint firstItem="7VN-wx-anZ" firstAttribute="top" secondItem="0Hd-vD-Uj9" secondAttribute="top" id="bas-1A-IUM"/>
-                                    <constraint firstAttribute="bottom" secondItem="7VN-wx-anZ" secondAttribute="bottom" id="owa-mf-nWV"/>
+                                    <constraint firstAttribute="bottom" secondItem="7VN-wx-anZ" secondAttribute="bottom" constant="12" id="21u-nN-Iys"/>
+                                    <constraint firstItem="7VN-wx-anZ" firstAttribute="top" secondItem="0Hd-vD-Uj9" secondAttribute="topMargin" id="KHV-Rq-3Bv"/>
+                                    <constraint firstAttribute="trailing" secondItem="7VN-wx-anZ" secondAttribute="trailing" constant="2" id="N94-3d-dxh"/>
+                                    <constraint firstItem="7VN-wx-anZ" firstAttribute="leading" secondItem="0Hd-vD-Uj9" secondAttribute="leading" id="dOq-0z-HC0"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="0Hd-vD-Uj9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="F6Q-Qr-rTo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FHI-AA-Wes" secondAttribute="bottom" id="LcY-Zy-4WH"/>
-                            <constraint firstItem="0Hd-vD-Uj9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NB9-OQ-P06"/>
                             <constraint firstItem="FHI-AA-Wes" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="NGD-hu-cxO"/>
-                            <constraint firstAttribute="bottom" secondItem="0Hd-vD-Uj9" secondAttribute="bottom" id="PzB-TL-fGC"/>
-                            <constraint firstAttribute="trailing" secondItem="0Hd-vD-Uj9" secondAttribute="trailing" id="RP2-FV-12N"/>
+                            <constraint firstItem="0Hd-vD-Uj9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="NkU-7u-1ea"/>
                             <constraint firstAttribute="trailing" secondItem="FHI-AA-Wes" secondAttribute="trailing" id="Uf0-RJ-Nie"/>
-                            <constraint firstItem="0Hd-vD-Uj9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XK5-29-Osb"/>
+                            <constraint firstItem="0Hd-vD-Uj9" firstAttribute="centerX" secondItem="FHI-AA-Wes" secondAttribute="centerX" id="awR-aZ-5vg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Hd-vD-Uj9" secondAttribute="bottom" constant="38" id="i7W-6L-NH3"/>
                             <constraint firstItem="FHI-AA-Wes" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ubO-px-L00"/>
                         </constraints>
                     </view>
