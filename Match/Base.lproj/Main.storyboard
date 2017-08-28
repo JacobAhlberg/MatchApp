@@ -42,26 +42,44 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tB-IS-Buq">
                                                         <rect key="frame" x="0.0" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cS1-j5-bcC"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n6-hD-tO7">
                                                         <rect key="frame" x="109" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ke-Lh-rny"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVc-Gb-d16">
                                                         <rect key="frame" x="218" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R4I-wp-d2h"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLa-bk-ALL">
                                                         <rect key="frame" x="327" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdO-yN-1e8"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEm-Rr-CKO">
                                                         <rect key="frame" x="436" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9rb-sH-clD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQT-cR-dzk">
                                                         <rect key="frame" x="545" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJG-bt-5EJ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -74,26 +92,44 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6i-6b-ebD">
                                                         <rect key="frame" x="0.0" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cy3-rz-N7h"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbT-S9-ZpW">
                                                         <rect key="frame" x="109" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y3o-cy-VhL"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NJ-9c-QuM">
                                                         <rect key="frame" x="218" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTd-1d-gkq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KO9-PM-KSx">
                                                         <rect key="frame" x="327" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XoC-eh-vR9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fss-z9-gh1">
                                                         <rect key="frame" x="436" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u2r-yq-dw3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m72-J1-ufp">
                                                         <rect key="frame" x="545" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZQT-JI-nK8"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -106,26 +142,44 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVD-Xm-T37">
                                                         <rect key="frame" x="0.0" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yH-uA-ebC"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvP-93-RKR">
                                                         <rect key="frame" x="109" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDw-Sl-OML"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muV-Hq-7Yf">
                                                         <rect key="frame" x="218" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us6-RN-1XG"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxz-yq-Gk9">
                                                         <rect key="frame" x="327" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1k-UO-rWJ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-Ye-pCY">
                                                         <rect key="frame" x="436" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X1c-pk-huK"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoA-ko-tP5">
                                                         <rect key="frame" x="545" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JnQ-m3-cZR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -138,26 +192,44 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaR-fp-cSi">
                                                         <rect key="frame" x="0.0" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmc-rU-zbZ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1F-Ah-jqX">
                                                         <rect key="frame" x="109" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6g-3x-kQM"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWp-pC-82n">
                                                         <rect key="frame" x="218" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caE-XN-qxM"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORQ-Gf-Sx9">
                                                         <rect key="frame" x="327" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCA-Aw-PgM"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dr-Mq-SID">
                                                         <rect key="frame" x="436" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XdE-s4-HGX"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bql-fC-URv">
                                                         <rect key="frame" x="545" y="0.0" width="89" height="130"/>
                                                         <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="cardWasPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8I-TU-7cz"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -201,6 +273,32 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="667" height="750"/>
+                    <connections>
+                        <outlet property="cardplace1" destination="4tB-IS-Buq" id="WwJ-4P-mCs"/>
+                        <outlet property="cardplace10" destination="KO9-PM-KSx" id="nFh-EY-9T7"/>
+                        <outlet property="cardplace11" destination="fss-z9-gh1" id="Vv3-P3-auc"/>
+                        <outlet property="cardplace12" destination="m72-J1-ufp" id="vm6-Bg-bYQ"/>
+                        <outlet property="cardplace13" destination="gVD-Xm-T37" id="YGx-T9-fxa"/>
+                        <outlet property="cardplace14" destination="SvP-93-RKR" id="FdZ-uy-duo"/>
+                        <outlet property="cardplace15" destination="muV-Hq-7Yf" id="Zpu-6i-3am"/>
+                        <outlet property="cardplace16" destination="rxz-yq-Gk9" id="drZ-QY-HGq"/>
+                        <outlet property="cardplace17" destination="uQ2-Ye-pCY" id="qDN-p8-9ud"/>
+                        <outlet property="cardplace18" destination="FoA-ko-tP5" id="QUL-4v-JhX"/>
+                        <outlet property="cardplace19" destination="QaR-fp-cSi" id="HPs-tW-yhI"/>
+                        <outlet property="cardplace2" destination="4n6-hD-tO7" id="D20-0a-bY7"/>
+                        <outlet property="cardplace20" destination="a1F-Ah-jqX" id="e3P-2Z-15T"/>
+                        <outlet property="cardplace21" destination="VWp-pC-82n" id="gMk-eY-LcP"/>
+                        <outlet property="cardplace22" destination="ORQ-Gf-Sx9" id="31O-MU-nyE"/>
+                        <outlet property="cardplace23" destination="0dr-Mq-SID" id="68G-9x-6aM"/>
+                        <outlet property="cardplace24" destination="bql-fC-URv" id="d1O-5y-j58"/>
+                        <outlet property="cardplace3" destination="AVc-Gb-d16" id="KAS-VM-msb"/>
+                        <outlet property="cardplace4" destination="yLa-bk-ALL" id="Y1e-6f-oZW"/>
+                        <outlet property="cardplace5" destination="tEm-Rr-CKO" id="P5N-EM-r8L"/>
+                        <outlet property="cardplace6" destination="zQT-cR-dzk" id="ngs-YM-sGO"/>
+                        <outlet property="cardplace7" destination="X6i-6b-ebD" id="dZx-fJ-929"/>
+                        <outlet property="cardplace8" destination="xbT-S9-ZpW" id="eVC-Jb-4Yh"/>
+                        <outlet property="cardplace9" destination="4NJ-9c-QuM" id="h93-IP-bMS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
